@@ -7,6 +7,15 @@
         android:inputType="text"
         android:singleLine="true" />
 
+    <ListPreference
+        android:title="@string/pref_temperature_label"
+        android:key="@string/pref_temperature_key"
+        android:entries="@array/pref_temperature_options_titles"
+        android:entryValues="@array/pref_temperature_options_values"
+        android:defaultValue="0"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
     <SwitchPreference
         android:defaultValue="true"
         android:key="example_switch"
